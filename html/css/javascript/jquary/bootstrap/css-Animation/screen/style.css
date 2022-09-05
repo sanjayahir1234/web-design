@@ -1,0 +1,56 @@
+.title
+{
+    text-align: center;
+    color: aliceblue;
+}
+body
+{
+    background-color: black;
+}
+div#circle
+{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid red;
+    margin: 0 auto;
+    margin-top: 15%;
+    border-radius: 50%;
+    position: relative;
+    animation-name: circle;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+div#square
+{
+    width: 55px;
+    height: 55px;
+    border: 5px solid limegreen;
+    position: absolute;
+    animation-name: square;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes circle
+{
+    0%{border-color: aqua; transform: scale(1);}
+    25%{border-color: blue; transform: scale(1.1);}
+    50%{border-color: yellow; transform: scale(1.3);}
+    75%{border-color: violet; transform: scale(1.4);}
+    100%{border-color: tomato; transform: scale(1.5);}
+}
+
+@keyframes square
+{
+    0%{transform:rotate3d(odeg)}
+    25%{border-color: chartreuse; border-width: 10px;}
+    50%{border-color: crimson; border-width: 20px;}
+    75%{border-color: darkgray; border-width: 40px;}
+    100%{transform: rotate3d(360deg); border-width: 5px;}
+}

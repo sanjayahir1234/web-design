@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <h1>This is the Example of set </h1>
+    <h3>this is paragraph</h3>
+     <h2></h2>
+    <label>Name:</label> <input type="text">
+    <br><br>
+    <button id="btn">click for text</button>
+    <button id="btn-1">click for html</button>
+    <button id="btn-2">click for input</button>
+</body>
+<script>
+    $(document).ready(function(){
+        $("#btn").click(function(){
+            $("h3").text(" Hey How are you");
+        });
+        $("#btn-1").click(function(){
+            $("h2").html("<i>Hello World!</i>")
+        });
+        $("#btn-2").click(function(){
+            $("input").val("Rahul Ahir");
+        });
+    });
+</script>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+           #a
+           {
+               height: 100px;
+               width: 40%;
+               background-color: aqua;
+           }
+           #b
+           {
+               height: 100px;
+               width: 40%;
+               background-color: white;
+               margin-top: 5px;
+               background-image: url(download.png);
+               background-size: 100px 100px ;
+               background-repeat: no-repeat;
+               margin-left: 16%;
+
+           }
+           #c
+           {
+               height: 100px;
+               width: 40%;
+               background-color: chartreuse;
+               margin-top: 5px;
+           }
+
+
+
+
+    </style>
+</head>
+<body>
+     <h1>Click here to see flag</h1>
+   <div id="a"></div>
+    <div id="b"></div>
+    <div id="c"></div>
+   <button style="margin-top:10px ;">click here</button>
+
+</body>
+
+
+<script>
+          
+          $(document).ready(function(){
+              $("button").click(function(){
+              $("#a").css("background-color","coral")
+              $("#b").css("background-color","white",)
+              $("#c").css("background-color","green")
+              });
+          });
+
+</script>
+</html>

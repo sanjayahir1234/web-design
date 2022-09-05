@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+
+   <h1>This is an example of filter in jquery</h1>
+    <div style="border:solid 3px black ;">
+      <p style="font-size:30px ; text-align:center ;">Hello Every One</p>
+      <p style="font-size:30px ; text-align: center;">How are you</p>
+    </div><br>
+    <div style="border:solid 3px black ;">
+        <p style="font-size:30px ; text-align: center;">Hello Every One</p>
+        <p style="font-size:30px ; text-align: center;">How are you</p>
+      </div><br>
+    <div style="border:solid 3px black ;">
+      <p style="font-size:30px ; text-align: center;">Hello Every One</p>
+      <p style="font-size:30px ; text-align: center;">How are you</p>
+    </div><br>
+</body>
+<script>
+
+$(document).ready(function(){
+   $("div").first().css({"background-color":"orange","color":"white"});
+   $("div").last().css({"background-color":"green","color":"white"});
+});
+
+</script>
+</html>

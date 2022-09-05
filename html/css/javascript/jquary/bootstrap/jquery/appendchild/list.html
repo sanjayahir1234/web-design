@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+
+    <h1>this is an example of adding list in jquery
+    </h1>
+
+    <ul id="ul">
+        <li>home</li>
+        <li>about</li>
+        <li>contact</li>
+        <li>services</li>
+    </ul>
+    <button>Click here</button>
+    
+</body>
+
+<script>
+
+ $(document).ready(function(){
+     $("button").click(function(){
+         $("#ul").append("<li>Reach us</li>")
+     })
+ })
+
+</script>
+
+
+</html>

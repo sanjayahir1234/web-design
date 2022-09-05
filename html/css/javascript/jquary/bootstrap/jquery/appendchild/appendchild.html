@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <h1>this is an example of adding items in jquery</h1>
+ <h1 id="h1">Hello Friend <br></h1>
+<button>Click Here</button>
+</body>
+<script>
+
+  $(document).ready(function(){
+      $("button").click(function(){
+          $("#h1").append("hello every one", "<br>","how are you")
+      })
+  })
+
+</script>
+
+</html>

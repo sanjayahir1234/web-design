@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <h1>This is the Example of value adding </h1>
+    <label>Name:</label> <input type="text">
+    <br><br>
+    <button id="btn-2">click for input</button>
+</body>
+<script>
+    $(document).ready(function(){
+        $("#btn-2").click(function(){
+           $("input").val("hello every one");
+        });
+    });
+</script>
+</html>
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stop</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<style>
+
+ h2{
+     display: none;
+     width: 100%;
+     height: 100px;
+     background-color: coral;
+     color: white;
+     font-size: 40px;
+     text-align: center;
+     padding-top: 50px;
+ }
+
+
+
+
+
+</style>
+<body>
+
+    <h1>this is an example of stop in jquery</h1>
+
+    
+    <button id="start">click here to start</button>
+    <button id="stop">Click here to stop</button>
+    <button id="up">click Here to slideUp</button>
+    <h2>Hello Friends</h2>
+</body>
+
+<script>
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("h2").slideDown(3000);
+        });
+        
+        $("#up").click(function(){
+            $("h2").slideUp(2000);
+        })
+        $("#stop").click(function(){
+            $("h2").stop();
+        });
+        
+    });
+ 
+
+</script>
+
+ 
+
+</html>

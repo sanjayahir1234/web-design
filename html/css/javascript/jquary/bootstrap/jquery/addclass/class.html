@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        .main
+        {
+            text-align: center;
+            background-color: aqua;
+            color: white;
+            font-size: 30px;
+            padding: 10px;
+            border-radius: 10px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    
+
+  <h1>This is an example of addclass in jquery</h1>
+  <h2>Hello Every One</h2>
+  <p style="font-weight: 700;">How Are you</p>
+  <button>Click here</button>
+</body>
+
+<script>
+
+  $(document).ready(function(){
+  $("button").click(function(){
+   $("h2,p").addClass("main");
+  });
+  });
+
+
+</script>
+
+</html>

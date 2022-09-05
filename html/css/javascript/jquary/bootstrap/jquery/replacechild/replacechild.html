@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    
+  <h1>This is example of replace-child in jquery</h1>
+
+  <ul id="ul">
+     <h1>This is our first page</h1>
+     <h1 id="h2">This is our first page</h1>
+     <h1 id="h3">This is our first page</h1>
+     <h1 id="h4">This is our first page</h1>
+     <h1 id="h5">This is our first page</h1>
+     <h1 id="h6">This is our first page</h1>
+  </ul>
+  
+  <button onclick="rahul()">Click here</button>
+
+</body>
+<script>
+    
+    function rahul()
+    {
+    
+    
+var newEl=document.createElement('h2')  
+var newText=document.createTextNode("This is our second page")
+newEl.appendChild(newText)
+
+var target=document.getElementById('ul')
+var oldElement=target.children[1]
+target.replaceChild(newEl,oldElement)
+
+
+ 
+var newEl=document.createElement('h3')  
+var newText=document.createTextNode("This is our second page")
+newEl.appendChild(newText)
+
+var target=document.getElementById('ul')
+var oldElement=target.children[2]
+target.replaceChild(newEl,oldElement)
+
+ 
+var newEl=document.createElement('h4')  
+var newText=document.createTextNode("This is our second page")
+newEl.appendChild(newText)
+
+var target=document.getElementById('ul')
+var oldElement=target.children[3]
+target.replaceChild(newEl,oldElement)
+
+ 
+var newEl=document.createElement('h5')  
+var newText=document.createTextNode("This is our second page")
+newEl.appendChild(newText)
+
+var target=document.getElementById('ul')
+var oldElement=target.children[4]
+target.replaceChild(newEl,oldElement)
+
+ 
+var newEl=document.createElement('h6')  
+var newText=document.createTextNode("This is our second page")
+newEl.appendChild(newText)
+
+var target=document.getElementById('ul')
+var oldElement=target.children[5]
+target.replaceChild(newEl,oldElement)
+
+    }
+
+</script>
+</html>

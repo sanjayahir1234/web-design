@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+       #main
+       {
+           
+           border: solid 3px black;
+           color: rgb(59, 59, 148);
+           padding: 5px;
+           margin: 15px;
+       }
+      
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    
+  <h1>this is an example of descendent in jquery</h1>
+  
+  <div id="main" style="width: 500px;">
+      <p>
+          <h1>Hello Every One</h1>
+      </p>
+      <p>
+          <h1>How Are You</h1>
+      </p>
+  </div>
+
+
+</body>
+<script>
+    $(document).ready(function(){
+        $("div").children().css({"fontsize":"20px","color":"red","border":"5px solid purple ","background-color":"yellow","padding":"5px","borderRadius":"10px"});
+    });
+</script>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>fade</title>
+    <style>
+        #a
+        {
+             margin-top: 10px;
+            background-color: orange;
+            width: 100px;
+            height: 100px;
+            border: solid 1px black;
+            display: none;
+        }
+        #b
+        {
+            background-color: whitesmoke;
+            width: 100px;
+            height: 100px;
+            border: solid 1px black;
+            display: none;
+        }
+        #c
+        {
+            background-color: green;
+            width: 100px;
+            height: 100px;
+            border: solid 1px black;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>this is an example of fade in jquery</h1>
+    <button>Click here to fade in effect</button>
+    <div id="a"></div>
+    <div id="b"></div>
+    <div id="c"></div>
+</body>
+<script>
+ $(document).ready(function(){
+   $("button").click(function(){
+    $("#a").fadeIn();
+    $("#b").fadeIn(2000);
+    $("#c").fadeIn(4000);
+   });
+ });
+
+
+</script>
+</html>

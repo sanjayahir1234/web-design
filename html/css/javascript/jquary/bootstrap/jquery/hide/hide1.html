@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+   <h1>tnis is an example of hide in jquery</h1>
+    <h1>hello every one</h1>
+    <h2>hello friends</h2>
+    <h3>how are you</h3>
+    <h4>my name is rahul</h4>
+    <h5>itus infotact</h5>
+    <h6>hello</h6>
+    <button>Click here</button>
+</body>
+
+<script>
+
+  $(document).ready(function(){
+      $("button").click(function(){
+          $("h2,h4").hide();
+      });
+  });
+
+</script>
+</html>

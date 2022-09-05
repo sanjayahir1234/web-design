@@ -1,0 +1,53 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.q
+{
+    width:100%;
+    height:120px;
+    background-color: aqua;
+    display: flex;
+    
+}
+nav
+{
+    width:20%;
+    height:120px;
+}
+li
+{
+    list-style: none;
+    text-align: center;
+    margin-top:5px ;
+}
+li:hover
+{
+    color: chartreuse;
+    background-color:darkgray;
+    font-size: 25px;
+}
+article
+{
+    width:80% ;
+    height: 120px;
+    background-color: gold;
+    color: aliceblue;
+    font-size:20px ;
+}
+p{
+    display: none;
+    background-color: blue;
+    
+}
+div:hover p
+{
+    display: flex;
+    background-color:  darkorchid;
+    color: aliceblue;
+    font-size: 20px;
+    
+}

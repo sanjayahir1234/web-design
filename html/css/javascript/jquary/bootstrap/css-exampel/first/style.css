@@ -1,0 +1,59 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    display: flex;
+    height: 100px;
+    background: red;
+}
+
+.blank{
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-left: 2px solid black;
+    width: 16.66%;
+     
+}
+.Computer{
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-left: 2px solid black;
+    width: 16.66%;
+      
+}
+.Cpu{
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-left: 2px solid black;
+    width: 16.66%;
+      
+}
+.Call{
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-left: 2px solid black;
+    width: 16.66%;
+      
+}
+.E-mail{
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-left: 2px solid black;
+    width: 16.66%;
+      
+}
+.blank 1{
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-left: 2px solid black;
+    width: 16.66%;
+      
+}

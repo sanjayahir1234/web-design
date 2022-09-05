@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    additon :-<i id="add"></i>
+    <br><br>
+    <button onclick="change()">Click Here</button>
+    <br><br>
+    divide :-<i id="div"></i>
+    <br><br>
+    <button onclick="tus()">Click Here</button>
+    <br><br>
+    multi :-<i id="mul"></i>
+    <br><br>
+    <button onclick="chan()">Click Here</button>
+    <br><br>
+    sub :-<i id="sub"></i>
+    <br><br>
+    <button onclick="duc()">Click Here</button>
+    
+</body>
+<script>
+    function change()
+    {
+        var a=10;
+        b=20;
+        c=a+b
+        document.getElementById('add').innerHTML=c
+    }
+    function tus()
+    {
+        var a=20;
+        var b=5;
+        e=a/b
+        document.getElementById('div').innerHTML=e
+    }
+    function chan()    
+    
+    {
+        var r=50;
+            s=2;
+            t=r*s
+            document.getElementById('mul').innerHTML=t
+
+    }
+    function duc()
+    {
+        var y=50;
+            x=30;
+            z=y-x
+            document.getElementById('sub').innerHTML=z
+    }
+</script>
+</html>

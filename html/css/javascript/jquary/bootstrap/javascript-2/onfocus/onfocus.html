@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onfocus</title>
+</head>
+<body>
+    <center>
+    <h1>This is example of onfocus in java</h1>
+      
+    <lable>Enter Your Name &nbsp;</lable><input type="text" name="name" placeholder="Enter Your name" required   onfocus="focusfunction(this)" >
+    <br><br>
+    <lable>Password &nbsp;</lable><input type="text" name="Password" placeholder="Password" required  onfocus="focusfunction(this)">
+    <br><br>
+    <lable>Conform Password &nbsp;</lable><input type="text" name="Conform Password" placeholder="Conform Password" required  onfocus="focusfunction(this)">
+    <br><br>
+    <label>Email &nbsp;</label><input type="text" name="text" placeholder="Email" required  onfocus="focusfunction(this)">
+    <br><br>
+    <lable>Contact &nbsp;</lable><input type="text" name="text" placeholder="Contact" required  onfocus="focusfunction(this)">
+    <br><br>
+    <input type="submit">
+      </center>
+</body>
+
+<script>
+
+  function focusfunction(element)
+  {
+      element.style.background="red"
+  }
+
+
+</script>
+
+
+</html>

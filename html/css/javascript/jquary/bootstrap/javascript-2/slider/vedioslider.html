@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <video class="vid" width="1350px" height="600px" controls autoplay>
+        <source src="video6215424268428117495.mp4">
+    </video>
+    <video class="vid" width="1350px" height="600px" controls autoplay>
+        <source src="video6215424268428117496.mp4">
+    </video>
+</body>
+<script>
+        counter =0;
+    function slider()
+    {
+         ar=document.getElementsByClassName('vid');
+        for(var b=0; b<ar.length; b++)
+        {
+        ar[b].style.display="none"
+        }
+            ar[counter].style.display="block"
+            counter++
+            setTimeout(slider, 5000);
+    }
+    slider();
+</script>
+</html>

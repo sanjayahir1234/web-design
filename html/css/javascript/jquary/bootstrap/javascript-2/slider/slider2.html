@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+        <img class="l2" src="pexels-andrea-piacquadio-3755760.jpg" width="100%" height="1000px">
+        <img class="l2" src="pexels-andrea-piacquadio-3762803.jpg" width="100%" height="1000px">
+        <img class="l2" src="pexels-ella-olsson-1640777.jpg" width="100%" height="1000px"> 
+        <img class="l2" src="pexels-pixabay-159618 (1).jpg" width="100%" height="1000px">
+        <img class="l2" src="pexels-pixabay-326279.jpg" width="100%" height="1000px">
+        <img class="l2" src="pexels-prakash-chavda-7160122.jpg" width="100%" height="1000px"> 
+        <img class="l2" src="pexels-rafael-cosquiere-2041540.jpg" width="100%" height="1000px">
+        <img class="l2" src="pexels-stanislav-kondratiev-2908984.jpg" width="100%" height="1000px">
+    </div>
+
+    
+    
+</body>
+
+<script>
+
+let rahul = 0
+function shyam(){
+    var a=document.getElementsByClassName('l2');
+    for (var b=0; b<a.length; b++)
+    {
+        a[b].style.display="none"
+        if(rahul == 8){
+            rahul =0
+        }
+    }
+    a[rahul].style.display="block"
+    rahul ++
+    setTimeout(rahul,1000)
+}
+rahul();
+</script>
+</html>

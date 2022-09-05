@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input example</title>
+</head>
+<body>
+    <center>
+    <h1>This is example of input in java</h1>
+    <lable>Enter Your Name</lable><input type="text" name="name" placeholder="Enter Your name" required oninput="inputfunction(this)">
+    <br><br>
+    <lable>Password</lable><input type="password" name="Password" placeholder="Password" required oninput="inputfunction(this)">
+    <br><br>
+    <lable>Conform Password</lable><input type="text" name="Conform Password" placeholder="Conform Password" required oninput="inputfunction(this)">
+    <br><br>
+    <input type="submit">
+    </center>
+   <div id="input" style="border:solid 2px black ;"></div>
+</body>
+
+<script>
+ 
+ function inputfunction(element)
+ {
+    var x=element.value
+     document.getElementById("input").innerHTML=x
+ } 
+
+
+</script>
+
+</html>

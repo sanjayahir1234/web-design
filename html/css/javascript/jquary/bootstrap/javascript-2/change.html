@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="add">Hello Word</h1>
+    <br><br>
+    <button onclick="change()">Click Here</button>
+    
+</body>
+<script>
+    function change()
+    {
+        document.getElementById('add').innerHTML="hello friend"
+        document.getElementById('add').style.background="red"
+        document.getElementById('add').style.width="20%"
+        document.getElementById('add').style.padding="10px"
+        document.getElementById('add').style.textAlign="center"
+        document.getElementById('add').style.color="white"
+        document.getElementById('add').style.borderRadius="10px"
+    }
+</script>
+</html>

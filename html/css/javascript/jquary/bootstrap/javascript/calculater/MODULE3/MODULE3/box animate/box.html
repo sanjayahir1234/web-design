@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Java script</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            border: solid 1px black;
+        }
+    </style>
+</head>
+<body>
+    <div id="demo"></div>
+    <button onclick="test()">Click Hear</button>
+</body>
+<script>
+    function test(){
+        document.getElementById('demo').style.background="red";
+        document.getElementById('demo').style.height="200px";
+        document.getElementById('demo').style.width="200px";
+        document.getElementById('demo').style.transition="0.5s";
+        document.getElementById('demo').style.borderRadius="50%";
+
+            }
+</script>
+</html>

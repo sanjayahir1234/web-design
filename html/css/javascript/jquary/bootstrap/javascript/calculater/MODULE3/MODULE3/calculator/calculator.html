@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="text" name="" id="first">
+    <br>
+    <br>
+    <select id="ope">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        <option value="%">%</option>
+    </select>
+    <br>
+    <br>
+    <input type="text" name="" id="second">
+    <br>
+    <br>
+    <button onclick="ans()">Click hear to ans</button>
+    <br>
+    <br>
+    <input id="result" type="text" name="" readonly>
+</body>
+<script>
+    function ans(){
+        var a=document.getElementById('first').value;
+        var b=document.getElementById('second').value;
+        var c=document.getElementById('ope').value;
+
+        if(c == '+')
+        {
+            var res = parseInt(a) + parseInt(b);
+        }
+
+        if(c == '-')
+        {
+            var res = parseInt(a) - parseInt(b);
+        }
+        if(c == '*')
+        {
+            var res  = parseInt(a) * parseInt(b);
+        }
+        if(c == '/')
+        {
+            var res = parseInt(a) / parseInt(b);
+        }
+        if(c == '%')
+        {
+            var res = parseInt(a) % parseInt(b);
+        }
+        document.getElementById('result').value = res;
+    }
+    alert("welcome to our web page");
+    confirm("please conform that it is you");
+    prompt("Enter Your Name","");
+</script>
+</html>

@@ -1,0 +1,53 @@
+body
+{
+    background-color:gray ;
+}
+.e
+{
+    width:80% ;
+    height:100px ;
+}
+.row
+{
+    width:80% ;
+    height:300px ;
+    display: flex;
+    margin-left:18% ;
+    margin-top:10px ;
+
+}
+.column
+{
+    width:26.66%;
+    height:250px ;
+    margin:5px ;
+    background-color:white ;
+}
+p
+{
+    margin-left:10px ;
+}
+input
+{
+    margin-left:10px ;
+}
+.a
+{
+    margin-left:20% ;
+    cursor: pointer;
+}
+.column-col
+{
+    width:26.66%;
+    height:250px ;
+    margin:5px ;
+    background-color:white ;
+}
+.row-col
+{
+    width:80% ;
+    height:300px ;
+    display: flex;
+    margin-left:18% ;
+    margin-top: -2%;   
+}

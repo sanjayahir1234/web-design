@@ -1,0 +1,27 @@
+                                                               Module(HTML-5) -3
+
+Q1- What are the new tag added in Html-5?
+A-   new tags added in html-5 is:- <a>,<abbr>,<address>,<b>,<base>,<button>,<cite>,<details>,<div>,<embed>,<footer>,<form>,<head>
+<h1>To<h6>,<html>,<label>,<legend>,<main>,<menu>,<object>,<param>,<script>,<source>,<table>,
+<svg>,<textarea>,<time>,<table>,<track>,<u>,<ul>,<var>,<video>,<wbr>.etc
+
+Q2- How to embed audio and video in a webpage?
+A-    video Element:-
+        To embed video in webpage we use <video> tag. it contains one or more video source at a time         using <source>tag. it support MP4.
+        
+        Audio Element:-
+        The <audio> element is very similar to the video element. However, the only major different is that           there are no visuals.
+        It's simple way to embed video is We can use the audio element to play an audio file on our web         page – such as an mp3 file.
+
+Q3- Sematic element in Html-5?
+A-   A sematic element clearly describes its meaning to both the browser and the developer. 
+       Example:- <form>, <table>, <Article>,<header>,<footer> 
+
+Q4- Canvas and SVG tags?
+A- svg and canvas both are used for creating or developing images and shapes.
+
+  Canvas:- the <canvas> tag is used to draw graphis. on the fly. via scripting. the canvas tag is                       transperent  and is only a container for graphics. any text in <canvas> element will be                 displayed in browsers with javascript. 
+
+  SVG:-  the html<svg> element is a container for svg graphics. svg has several methods for drawing                        paths,boxes,circle,text, and graphics and images.    
+ 
+        

@@ -1,0 +1,89 @@
+                                                  (jquery basic, Effects & Advanced )
+
+Q1- What is jquery?
+Ans. jQuery is a JavaScript library designed to simplify Html Dom tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is free, open-source software using the permissive MIT License. As of May 2019, jQuery is used by 73% of the 10 million most popular websites.
+
+Q2- How to Apply CSS Using JQuery, How to Add Class and Remove Class in JQuery, JQuery Animation?
+Ans. 
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").css("background-color", "yellow");
+  });
+});
+</script>
+</head>
+<body>
+<h2>This is a heading</h2>
+<p style="background-color:#ff0000">This is a paragraph </p>
+<button>Set background-color of p</button>
+</body>
+</html>
+                               For adding and removing class in Jquery:-
+addClass() - Adds one or more classes to the selected elements.
+removeClass() - Removes one or more classes from the selected elements.
+toggleClass() - Toggles between adding/removing classes from the selected elements.
+css() - Sets or returns the style attribute.
+
+                                  For adding Animation In JQuery:-
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("div").animate({left: '250px'});
+  });
+});
+</script>
+</head>
+<body>
+<button>Start Animation</button>
+<p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+</body>
+</html>
+
+Q3- how to create slider with animation?
+Ans. 
+
+For Creating Slider with Animation That’s Code is here:-
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+<style>
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
+</head>
+<body>
+<div id="flip">Click to slide the panel down or up</div>
+<div id="panel">Hello world!</div>
+</body>
+</html>
+
+
+
+
+

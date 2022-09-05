@@ -1,0 +1,68 @@
+                                                        Module (CSS and CSS 3) -2
+
+Q1. what are the benefits of using CSS?
+A.   you can make more attractive your page or web-site. using css you can change color of text, background, style of fonts.
+
+Q2.What are the disadvantage of  CSS?
+A. confusion due to many css versions, Extra work for developers.
+
+Q3. What is difference between CSS2 and CSS3? 
+ A. The biggest differnce between CSS2 and CSS3 is CSS3 has been split into different sections, each of  those sections is making its way through the W3c in various stage of the recommendation process.  
+
+Q4. Name a few CSS style Components
+A. background color, font-size, color, border, text-align, header, list, cards, select, etc.
+
+Q5. What do you understand by css opacity?
+A. opacity property sets the opacity of an element. Opacity is the degree to which content behind an element is hidden. opacity use for add transparency to the background.
+
+Q6. How can the background color of an element be changed?
+A.  use the background-color property and you can change the background of element.
+
+Q7. How can image repetition of the backup be controlled?
+A. use background-no repeat for the control background repetition. 
+
+Q8. What is the use of background-position property?
+A. the background-position property sets the position of background-position. that property placed the image in right,left,center.
+
+Q9. which property controls the image scroll in the background?
+A.  background-attachment property control the image scrolling in the background.
+
+Q10. Why should background and color be used as separate properties?
+A. background and color are the different properties. the main purpoes it make the style sheets more legible. color is inbuilt property while the background is not.
+
+Q11. how to center block elements ussing CSS1?
+A. Define the external width- We need to define the external width. block-level element have the default width of 100% of the webpage.
+
+Q12.How to maintain the CSS spacifications?
+A. keep styles of components(page,layout) in isolation all the look of an entire website by changing just one file name, component name. define a file name and define style class this the simple way to maintain spacifications.
+
+Q13. What are the ways to integrate css as a web page?
+A.  There are three ways to integrate css as a web page
+     1) External css
+     2) Internal css
+     3) Inline css
+
+Q14. Whis the embeded style sheets?
+A.   Embedded style sheet allow you to define styles for the whole Html document in one place. you do this by embedded the style sheet information within <style> </style> tags in the head of your document.
+
+Q15. What are the external style sheet?
+A. the external style sheet is the one of ways you can apply your css of your document. the external style sheet is generally used when you want to make changes on multiple pages.
+
+Q16. What are the advantages and disadvantages of using external stylesheets?
+A.   advantages. 1) everything is stored within a single file.
+                          2)this make it easier to maintain larger website.
+      
+     disadvantages. 1) the additional download is expected to import documents having style information.  
+                             2) not practical for small style definitions.
+
+Q17. What is the meaning of the css selector?
+A.  A css selector is the part of a css style call the identifies what part of the web page should be styled.
+
+Q18. What are the media types allowed by css?
+A.  the media type allowed by css is:-
+        1)brille, 2)embossed, 3)handheld, 4)print, 5)projection, 6)screen, 7)speech, 8)tty, 9)tv, 10)all.
+
+Q19. What is the rule set?
+A.  a css rule-set consists of a selector and a declararion block: the selector points to the html element you want to style.
+
+     

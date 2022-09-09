@@ -1,0 +1,57 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    display: flex;
+    height: 100PX;
+    background-color: chartreuse;
+}
+.blank{
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-left: 2px solid black;
+    width: 16.66%;
+    
+}
+.Enter{
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-left: 2px solid black;
+    width: 16.66%;
+    
+}
+.home{
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-left: 2px solid black;
+    width: 16.66%;
+    
+}
+.contact{
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-left: 2px solid black;
+    width: 16.66%;
+    
+}
+.Email{
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-left: 2px solid black;
+    width: 16.66%;
+    
+}
+.Services{
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-left: 2px solid black;
+    width: 16.66%;
+    
+}

@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    position: fixed;
+    background-image: linear-gradient(to top, #0099ff 20%, #005188 80%);
+}
+.logo{
+    width: 19.50%;
+}
+.logo img{
+    width: 100%;
+    height: 130px;
+}
+.nav{
+    padding-left: 15%;
+    padding-top: 50px;
+}
+.nav a{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover{
+    background: linear-gradient(rgb(6, 248, 55),rgba(10,10,160,0.5),rgba(176, 15, 130, 0.5));
+}
+.nav{
+    width: 59.99%;
+}
+.login{
+    width: 19.97%;
+}
+.login input{
+    width:50%;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 25%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: 900;
+    background:radial-gradient(rgb(91, 6, 248,0.8),rgb(241, 4, 4,0.8),rgb(255, 2, 183,0.8));
+    cursor: pointer;
+}
+
+.wavewrapper{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    overflow:hidden;
+}
+.waveinner
+{
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 20vh);
+    margin-top: 8%;
+    top: 0;
+    overflow:hidden;
+    background-image: linear-gradient(to top, #0099ff 20%, #005188 80%);
+}
+ 
+.top{
+    opacity: 0.5;
+    z-index: 15;
+}
+.mid{
+    opacity: 0.75;
+    z-index: 10;
+}
+.bot{
+    z-index: 5;
+}
+.wave{
+    position: absolute;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-repeat: repeat no-repeat !important;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+}
+.wavetop{
+    background-size: 50% 100px;
+}
+.wavetop{
+    background-size: 50% 100px;
+    animation: wave 3s;
+    animation-delay: 1s;
+}
+@keyframes wave{
+    0%{
+        transform: translateX(0) translateZ(0) scaleY(1);
+    }
+    50%{
+        transform: translateX(-25%) translateZ(0) scaleY(0.50);
+    }
+    100%{
+        transform: translateX(-50%) translateZ(0) scaleY(1);
+    }
+}
+.wavemid{
+    background-size: 50% 120px;
+    animation: wave 10s linear infinite;
+}
+.wavebot{
+    background-size: 50% 100px;
+    animation: wave 15s linear infinite;
+}

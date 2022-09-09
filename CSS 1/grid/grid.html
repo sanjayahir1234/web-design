@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            font-size: 22px;
+            background-color: green;
+        }
+        body{
+            padding: 2rem;
+        }
+        .card{
+             background-color: red;
+             color: white;
+             padding: 1rem;
+             height: 4rem;
+        }
+        .cards{
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-gap:1rem;
+        }
+       
+        /* media query 900px */
+        @media(max-width:900px){
+            .cards{
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        @media(max-width: 600px){
+            .cards{
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <div class="card">one</div>
+        <div class="card">two</div>
+        <div class="card">three</div>
+        <div class="card">four</div>
+        <div class="card">five</div>
+        <div class="card">six</div>
+        <div class="card">seven</div>
+        <div class="card">eight</div>
+        <div class="card">nine</div>
+        <div class="card">ten</div>
+        <div class="card">eleven</div>
+        <div class="card">twelve</div>
+
+    </div>
+</body>
+</html>

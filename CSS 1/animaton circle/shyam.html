@@ -1,0 +1,40 @@
+<html>
+ <head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <style id="compiled-css" type="text/css">
+
+li {<!-- w  w w  .ja va  2  s.  c om-->
+   position: absolute;
+   height: 70px;
+   width: 70px;
+   list-style-type: none;
+   display:block;
+   border: 5px solid red;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   border-radius: 50%;
+   -webkit-animation: growUp 1s;
+   -moz-animation: growUp 1s;
+   -ms-animation: growUp 1s;
+   -o-animation: growUp 1s;
+   animation: growUp 1s;
+   animation-iteration-count: infinite;
+}
+@-webkit-keyframes growUp {
+   0%  { -webkit-transform: scale(0); }
+   100% { -webkit-transform: scale(1); }
+}
+@keyframes growUp {
+   0%  { transform: scale(0); }
+   100% { transform: scale(1); }
+}
+
+
+      </style> 
+ </head> 
+ <body> 
+  <ul> 
+   <li></li> 
+  </ul>  
+ </body>
+</html>

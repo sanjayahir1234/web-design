@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            margin-top: 20%;
+            padding: 0%;
+            display: flex;
+            background-color: black;
+        }
+        .skm{
+            position: absolute;
+            width: 60vh;
+            height: 60vh;
+            background-color: yellow;
+            border-radius: 90%;
+            background:linear-gradient(#3582ff,#8548ff,#054f58);
+            animation: animate 0.5s linear infinite;
+        }
+        @keyframes animate{
+            from { transform: rotate(0deg);}
+            
+            to{ transform: rotate(360deg) ;}
+        }
+        .skm:after{
+            content: ;
+            position: absolute;
+            top: 35px;
+            right: 35px;
+            bottom: 35px;
+            left: 35px;
+            background-color: darkred;
+            border-radius: 90%;
+        }
+        .skm span{
+            position: absolute;
+            width: 60vh;
+            height: 60vh;
+            background:linear-gradient(#800000,#3582ff,#008000);
+            border-radius: 90%;
+        }
+        .skm span:nth-child(1)
+        {filter: blue(5px);}
+
+        .skm span :nth-child(2)
+        {filter: blue(10px);}
+
+        .skm span :nth-child(3)
+        {filter: blue(15px);}
+
+        .skm span :nth-child(4)
+        {filter: blue(20px);}
+
+
+
+       
+        .pm{
+            float: right;
+            position: absolute;
+            width: 60vh;
+            height: 60vh;
+            margin-left: 1050px;
+            background-color: yellow;
+            border-radius: 90%;
+            background:linear-gradient(#3582ff,#8548ff,#054f58);
+            animation: animate 0.5s linear infinite;
+        }
+        @keyframes animate{
+            from { transform: rotate(0deg);}
+            
+            to{ transform: rotate(360deg) ;}
+        }
+        .pm:after{
+            content: ;
+            position: absolute;
+            top: 35px;
+            right: 35px;
+            bottom: 35px;
+            left: 35px;
+            background-color: darkred;
+            border-radius: 90%;
+        }
+        .pm span{
+            position: absolute;
+            width: 60vh;
+            height: 60vh;
+            background:linear-gradient(#800000,#3582ff,#008000);
+            border-radius: 90%;
+        }
+        .pm span:nth-child(1)
+        {filter: blue(5px);}
+
+        .pm span :nth-child(2)
+        {filter: blue(10px);}
+
+        .pm span :nth-child(3)
+        {filter: blue(15px);}
+
+        .pm span :nth-child(4)
+        {filter: blue(20px);}
+
+        .ppm{
+            margin-left: 530px;
+            position: absolute;
+            width: 60vh;
+            height: 60vh;
+            background-color: yellow;
+            border-radius: 90%;
+            background:linear-gradient(#3582ff,#8548ff,#054f58);
+            animation: animate 0.5s linear infinite;
+        }
+        @keyframes animate{
+            from { transform: rotate(0deg);}
+            
+            to{ transform: rotate(360deg) ;}
+        }
+        .ppm:after{
+            content: ;
+            position: absolute;
+            top: 35px;
+            right: 35px;
+            bottom: 35px;
+            left: 35px;
+            background-color: darkred;
+            border-radius: 90%;
+        }
+        .ppm span{
+            position: absolute;
+            width: 60vh;
+            height: 60vh;
+            background:linear-gradient(#800000,#3582ff,#008000);
+            border-radius: 90%;
+        }
+        .ppm span:nth-child(1)
+        {filter: blue(5px);}
+
+        .ppm span :nth-child(2)
+        {filter: blue(10px);}
+
+        .ppm span :nth-child(3)
+        {filter: blue(15px);}
+
+        .ppm span :nth-child(4)
+        {filter: blue(20px);}
+    </style>
+</head>
+<body>
+    <div class="skm">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+    </div>
+    <div class="pm"> 
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+    </div>
+    <div class="ppm"> 
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+            </div>
+</body>
+</html>

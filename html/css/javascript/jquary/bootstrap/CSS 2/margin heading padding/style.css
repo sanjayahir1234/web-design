@@ -1,0 +1,26 @@
+ body{
+    background-color: aqua;
+ }
+ 
+ tr,th, td{
+    border: solid 1px black;
+}
+
+table{
+    background: url(https://images.pexels.com/photos/590011/pexels-photo-590011.jpeg?cs=srgb&dl=pexels-lukas-590011.jpg&fm=jpg);
+    background-size: cover;
+    width: 50%;
+    height: 300px;
+    text-align: center;
+}
+.a{
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 300px;
+    text-align: center;
+}
+.x{
+    background-color: black;
+    color: white;
+}
